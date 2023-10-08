@@ -1,5 +1,3 @@
-package PointsSimulation;
-
 public class Main {
     // ANSI escape codes for text colors and formatting
     private static final String RESET = "\u001B[0m";
