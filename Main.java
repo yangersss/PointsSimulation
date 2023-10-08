@@ -21,6 +21,7 @@ public class Main {
         double points = 200.0d; // starting points
         double bettingPercent = 0.1d; // how much of your total bank do you bet every cycle?
 
+        int wins, losses = 0; // streamer's current record
         /*
         Streamer starts poll
         Viewers bet
