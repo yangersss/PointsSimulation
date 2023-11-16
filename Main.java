@@ -16,8 +16,8 @@ public class Main {
         what if you play into the gambler's fallacy?
             but by default, don't
         */
-        double points = 200.0d; // starting points
-        double bettingPercent = 0.1d; // how much of your total bank do you bet every cycle?
+        double points = 300.0d; // starting points
+        double bettingPercent = 0.0333d; // how much of your total bank do you bet every cycle?
 
         /*
         Streamer starts poll
@@ -26,7 +26,7 @@ public class Main {
         dish out the points (or not)
         */
         for (int i = 0; i < 20; i++) {
-            points += 20; //we earn points every 10 min and collecting the gift thingy
+            //points += 20; //we earn points every 10 min and collecting the gift thingy
 
             double currentlyBetting = points * bettingPercent; //how much we betting?
             double betPercent = 0.25 + (Math.random() * 0.5); //percent who say win
